@@ -1,0 +1,11 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "package.json",
+        "projects/asmodeo/utils/ng-package.json",
+        "projects/asmodeo/utils/package.json"
+      ]
+    }
+  }
+}
