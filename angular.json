@@ -133,6 +133,9 @@
           "options": {
             "tsConfig": "projects/asmodeo/utils/tsconfig.lib.json",
             "project": "projects/asmodeo/utils/ng-package.json"
+          },
+          "configurations": {
+            "production": {}
           }
         },
         "test": {
