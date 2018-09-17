@@ -2,4 +2,4 @@
  * Public API Surface of utils
  */
 
-export * from './lib/model-transform.ts';
+export * from './lib/model-transform';
