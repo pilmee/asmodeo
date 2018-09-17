@@ -1,0 +1,18 @@
+
+language: node_js
+node_js:
+  - 'stable'
+before_script:
+  - npm install
+script:
+  - npm run lint:asmodeo  
+  - npm run build:asmodeo:prod
+  - cd dist/asmodeo/
+deploy:
+  provider: npm
+  email: $EMAIL
+  api_key: 
+    secure: $AUTH_TOKEN
+  skip_cleanup: true
+  on:
+    branch: master
