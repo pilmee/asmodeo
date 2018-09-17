@@ -5,8 +5,10 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:asmodeo:prod": "ng build asmodeo --prod",
     "test": "ng test",
     "lint": "ng lint",
+    "lint:asmodeo": "ng lint asmodeo",
     "e2e": "ng e2e"
   },
   "private": true,
