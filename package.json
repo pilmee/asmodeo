@@ -6,7 +6,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:asmodeo:prod": "ng build asmodeo --prod",
+    "build:asmodeo:prod": "ng build @asmodeo/utils --prod",
     "test": "ng test",
     "lint": "ng lint",
     "lint:asmodeo": "ng lint asmodeo",
