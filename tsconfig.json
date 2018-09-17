@@ -16,6 +16,14 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@asmodeo/utils": [
+        "dist/asmodeo/utils"
+      ],
+      "@asmodeo/utils/*": [
+        "dist/asmodeo/utils/*"
+      ]
+    }
   }
 }
