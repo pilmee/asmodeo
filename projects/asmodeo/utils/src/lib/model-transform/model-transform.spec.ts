@@ -64,5 +64,11 @@ describe('ModelTransform', () => {
         expect(result[i].child).toBeTruthy();
       }
     }));
+
+    describe('transform other values', () => {
+      [undefined, null, NaN, Infinity, '', 10, -2].forEach((value) => it(`Value tested: ${value}`, () => {
+        expect(ModelTransform.Transform(value, Person)).toBeUndefined();
+      }));
+    });
   });
 });

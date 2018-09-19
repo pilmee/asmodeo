@@ -2,4 +2,4 @@
  * Public API Surface of utils
  */
 
-export * from './lib/model-transform';
+export * from './lib/model-transform/index';
