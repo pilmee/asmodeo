@@ -159,6 +159,41 @@
           }
         }
       }
+    },
+    "@asmodeo/http": {
+      "root": "projects/asmodeo/http",
+      "sourceRoot": "projects/asmodeo/http/src",
+      "projectType": "library",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/asmodeo/http/tsconfig.lib.json",
+            "project": "projects/asmodeo/http/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/asmodeo/http/src/test.ts",
+            "tsConfig": "projects/asmodeo/http/tsconfig.spec.json",
+            "karmaConfig": "projects/asmodeo/http/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/asmodeo/http/tsconfig.lib.json",
+              "projects/asmodeo/http/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "asmodeo"
