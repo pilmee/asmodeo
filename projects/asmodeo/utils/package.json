@@ -1,8 +1,10 @@
 {
   "name": "@asmodeo/utils",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "license": "MIT",
   "author": "@pilmee",
+  "repository": "https://github.com/pilmee/asmodeo",
+  "homepage": "https://github.com/pilmee/asmodeo/tree/master/projects/asmodeo/utils",
   "keywords": [
     "asmodeo",
     "model",
