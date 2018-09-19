@@ -15,14 +15,3 @@ deploy:
   skip_cleanup: true
   on:
     branch: master
-script:
-  - cd ..
-  - cd http
-deploy:
-  provider: npm
-  email: $EMAIL
-  api_key: 
-    secure: $AUTH_TOKEN
-  skip_cleanup: true
-  on:
-    branch: master
