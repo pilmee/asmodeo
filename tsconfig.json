@@ -23,6 +23,12 @@
       ],
       "@asmodeo/utils/*": [
         "dist/asmodeo/utils/*"
+      ],
+      "@asmodeo/http": [
+        "dist/asmodeo/http"
+      ],
+      "@asmodeo/http/*": [
+        "dist/asmodeo/http/*"
       ]
     }
   }
