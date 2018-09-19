@@ -45,7 +45,7 @@ const _statusCode_ = new StatusCode(200);
 
 console.log(_statusCode_.value); // 200
 console.log(_statusCode_.ok); // true
-console.log(_statusCode_.continue); // false 200
+console.log(_statusCode_.continue); // false
 
 // ...
 
