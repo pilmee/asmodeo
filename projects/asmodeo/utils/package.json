@@ -1,6 +1,7 @@
 {
   "name": "@asmodeo/utils",
-  "version": "0.0.10",
+  "description": "This library contains reusable utilities, functions, validations, etc.",
+  "version": "0.0.11",
   "license": "MIT",
   "author": "@pilmee",
   "repository": "https://github.com/pilmee/asmodeo",
