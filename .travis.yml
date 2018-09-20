@@ -4,8 +4,7 @@ node_js:
   - 'stable'
 before_script:
   - npm install
-script:
-  - npm run lint:asmodeo  
+script: 
   - npm run build:asmodeo:prod
   - cd dist/asmodeo/utils/
 deploy:
