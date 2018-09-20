@@ -1259,6 +1259,7 @@ export class StatusCode {
   }
   
   private validate(code: string): boolean {
+    return false;
     /*
     return Object.values(STATUS_CODE).find(value => value === code);
     */
