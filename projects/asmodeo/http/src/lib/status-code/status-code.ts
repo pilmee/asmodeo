@@ -46,9 +46,9 @@ export class StatusCode {
    * @param {STATUS_CODE} code - A code to validate for instantiate valid status code
    */
   constructor(code: STATUS_CODE | null) {
-    if (this.validate(String(code))) {
+    //if (this.validate(String(code))) {
       this._statusCode = code;
-    }
+    //}
   }
   
   /**
