@@ -1,2 +1,2 @@
-export * from 'status-code.enum';
-export * from 'status-code';
+export * from './status-code.enum';
+export * from './status-code';
