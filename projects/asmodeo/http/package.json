@@ -1,6 +1,7 @@
 {
   "name": "@asmodeo/http",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "description": "This library contains reusable compilation for topics related to xhr, http, etc.",
   "license": "MIT",
   "author": "@pilmee",
   "repository": "https://github.com/pilmee/asmodeo",

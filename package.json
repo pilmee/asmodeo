@@ -17,7 +17,10 @@
     "lint:utils": "ng lint @asmodeo/utils",
     "lint:http": "ng lint @asmodeo/http",
     "lint:asmodeo": "npm run lint:utils && npm run lint:http",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "compodoc:http": "./node_modules/.bin/compodoc -p projects/asmodeo/http/tsconfig.lib.json -d documentation/asmodeo/http",
+    "compodoc:utils": "./node_modules/.bin/compodoc -p projects/asmodeo/utils/tsconfig.lib.json -d documentation/asmodeo/utils",
+    "compodoc": "npm run compodoc:utils && npm run compodoc:http"
   },
   "private": true,
   "dependencies": {
@@ -40,6 +43,7 @@
     "@angular/cli": "~6.2.2",
     "@angular/compiler-cli": "^6.1.0",
     "@angular/language-service": "^6.1.0",
+    "@compodoc/compodoc": "^1.1.5",
     "@types/jasmine": "~2.8.8",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~10.10.0",
