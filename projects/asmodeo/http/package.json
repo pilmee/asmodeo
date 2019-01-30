@@ -1,7 +1,7 @@
 {
   "name": "@asmodeo/http",
   "version": "0.0.5",
-  "description": "This library contains utilities relations to queries requests to the server."
+  "description": "This library contains utilities relations to queries requests to the server.",
   "license": "MIT",
   "author": "@pilmee",
   "repository": "https://github.com/pilmee/asmodeo",
