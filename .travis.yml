@@ -6,7 +6,7 @@ before_script:
   - npm install
 script: 
   - npm run build:asmodeo:prod
-  - cd dist/asmodeo/http/
+  - cd dist/asmodeo/utils/
 deploy:
   provider: npm
   email: $EMAIL
