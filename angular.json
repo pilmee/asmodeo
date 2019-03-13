@@ -197,6 +197,41 @@
           }
         }
       }
+    },
+    "@asmodeo/validations": {
+      "root": "projects/asmodeo/validations",
+      "sourceRoot": "projects/asmodeo/validations/src",
+      "projectType": "library",
+      "prefix": "validations",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/asmodeo/validations/tsconfig.lib.json",
+            "project": "projects/asmodeo/validations/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/asmodeo/validations/src/test.ts",
+            "tsConfig": "projects/asmodeo/validations/tsconfig.spec.json",
+            "karmaConfig": "projects/asmodeo/validations/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/asmodeo/validations/tsconfig.lib.json",
+              "projects/asmodeo/validations/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "asmodeo"

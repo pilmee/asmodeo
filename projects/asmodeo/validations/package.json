@@ -1,0 +1,19 @@
+{
+  "name": "@asmodeo/validations",
+  "description": "This library contains validations.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "@pilmee",
+  "repository": "https://github.com/pilmee/asmodeo",
+  "homepage": "https://github.com/pilmee/asmodeo/tree/master/projects/asmodeo/validations",
+  "keywords": [
+    "asmodeo",
+    "validations",
+    "angular",
+    "angular6"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  }
+}

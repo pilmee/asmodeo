@@ -29,6 +29,12 @@
       ],
       "@asmodeo/http/*": [
         "dist/asmodeo/http/*"
+      ],
+      "@asmodeo/validations": [
+        "dist/asmodeo/validations"
+      ],
+      "@asmodeo/validations/*": [
+        "dist/asmodeo/validations/*"
       ]
     }
   }

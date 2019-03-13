@@ -1,6 +1,6 @@
 {
   "name": "@asmodeo/utils",
-  "description": "This library contains reusable utilities, functions, validations, etc.",
+  "description": "This library contains reusable utilities, functions, etc.",
   "version": "1.0.1",
   "license": "MIT",
   "author": "@pilmee",
