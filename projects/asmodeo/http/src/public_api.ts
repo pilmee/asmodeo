@@ -6,3 +6,4 @@ export * from './lib/http.service';
 export * from './lib/http.component';
 export * from './lib/http.module';
 export * from './lib/status-code/index';
+export * from './lib/waterfall/waterfall';

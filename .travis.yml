@@ -4,13 +4,13 @@ node_js:
   - 'stable'
 before_script:
   - npm install
-script: 
+script:
   - npm run build:asmodeo:prod
-  - cd dist/asmodeo/utils/
+  - cd dist/asmodeo/http/
 deploy:
   provider: npm
   email: $EMAIL
-  api_key: 
+  api_key:
     secure: $AUTH_TOKEN
   skip_cleanup: true
   on:
